@@ -2,19 +2,20 @@
 FUNCTION FOR DELETE elements for list
 
 
-1. append()	:-Adds an element at the end of the list
+1. append()	    :-Adds an element at the end of the list
 2. clear()	    :-Removes all the elements from the list
 3. copy()	    :-Returns a copy of the list
 4. count()	    :-Returns the number of elements with the specified value
-5. extend()	:-Add the elements of a list (or any iterable), to the end of the current list
+5. extend()	    :-Add the elements of a list (or any iterable), to the end of the current list
 6. index()	    :-Returns the index of the first element with the specified value
-7. insert()	:-Adds an element at the specified position
+7. insert()	    :-Adds an element at the specified position
 8. pop()	    :-Removes the element at the specified position
-9. remove()	:-Removes the first item with the specified value
+9. remove()	    :-Removes the first item with the specified value
 10. reverse()	:-Reverses the order of the list
 11. sort()	    :-Sorts the list
 12. del         :- delete the value from index number
-
+13. min()       :- This function show the minimum number of list
+14. max()       :- This function show the maximum number of list
 
 """
 
@@ -50,3 +51,10 @@ l1 = [1, 2, 3, 4, 5, 6, 7, 8]
 # l1.sort(reverse=True) #sort the value and arrange the value in decending order
 # print(l1)
 
+# m1 = min(l1)  # minimum number in list
+# print("Minimum value is :", end="")
+# print(m1)
+
+# m2 = max(l1)  # maximum number in list
+# print("Maximum value is :", end="")
+# print(m2)
